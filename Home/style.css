@@ -1,5 +1,29 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;       
+    box-sizing: border-box;
+    background-color: #023047;       
+}
+
+.s1 img {
+    width: 100%;
+    height: auto;
+}
+
+.s1 p {
+    color: #8ECAE6;
+
+}
+
+.s1 h1{
+    color:aliceblue;
+}
+
+hr {
+margin: 20px auto;
+width: 70%;  
+border: none;
+height: 5px;
+background-color: #FFB703;
+
 }
