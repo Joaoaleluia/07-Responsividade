@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #023047;       
+          
 }
 
 .s1 img {
@@ -11,19 +11,49 @@
 }
 
 .s1 p {
+    margin-right: 20px;
+    margin-left: 20px;  
+    font-size: 20px;
+    height: auto;
     color: #8ECAE6;
-
+    padding: 5px;
 }
 
 .s1 h1{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     color:aliceblue;
+    padding: 5px;
+
 }
 
-hr {
-margin: 20px auto;
-width: 70%;  
-border: none;
-height: 5px;
-background-color: #FFB703;
+.s1 hr {
+    margin: 20px auto;
+    width: 80%;  
+    border: none;
+    height: 5px;
+    background-color: #FFB703;
 
+}
+
+body {    
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #023047;
+
+}
+
+.card{
+    background-color: #FFB703;
+    border-radius: 10%;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    
 }
