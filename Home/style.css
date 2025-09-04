@@ -4,6 +4,9 @@
     box-sizing: border-box;
           
 }
+.s1{
+    width: 100%;
+}
 
 .s1 img {
     width: 100%;
@@ -99,6 +102,10 @@ body {
 .btn:hover{
     opacity: 1;
 
+}
+
+.line2{
+    display: none;
 }
 
 @media (width>=768px){

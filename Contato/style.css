@@ -1,5 +1,88 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;       
+    box-sizing: border-box;
+          
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #023047;
+}
+
+.s1{
+    width: 100%;
+}
+
+.s1 img{
+    width: 100%;
+    height: auto;
+}
+
+.s1 h1{
+    font-size: 50px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s1 p{
+    color: #8ECAE6;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.s1 hr{
+    margin: 20px;
+    background-color: #FB8500;
+    height: 5px;
+    border: none;
+}
+
+.s1 h2{
+    font-size: 30px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato{
+    background-color: #8ECAE6;
+    width: 60%;
+    height: auto ;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.formulario{
+    display: flex;
+    justify-items: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 0px;
+}
+
+label{
+    margin-bottom: -20px;
+}
+
+input{
+    background-color: #219EBC;
+}
+
+button{
+    width: 45px;
+    background-color: #219EBC;
 }

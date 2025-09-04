@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betoneiras-contato</title>
+    <title>Betoneiras-home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <section class="s1">
+        <img class="img" src="./imagens.contato/betoBaner.png" alt="">
+        <h1 class="title">Contatos</h1>
+        <p class="frase">Email: bebetos@gmail.com <br>Endereço: Rua Rolandia, 999 - Pinhais</p>
+        <hr class="line">
+        <h2>Insira seus dados</h2>
+    </section>
     
+    <section class="contato">
+        
+        <div class="formulario">
+            <label for="nome">Nome</label><br>
+            <input type="text" placeholder="Insira seu nome" id="nome"><br>
+            <label for="assunto">Assunto</label><br>
+            <input type="text" placeholder="Insira o assunto" id="assunto"><br>
+            <button onclick="enviar()">Enviar</button>
+        </div>
+    </section>
+
+    <section class="s2">
+        <hr class="line2">
+
+        <div class="card">
+            <div class="top-card">
+                <img src="./Imagens/whatsapp.png" alt="">
+            </div>
+            <div class="bottom-card">
+                <h2>55 (41) 99999-9999</h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="top-card">
+                <img src="./Imagens/tiktok.png" alt="">
+            </div>
+            <div class="bottom-card">
+                <h2>@bebetos</h2> 
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="top-card">
+                <img src="./Imagens/instagram.png" alt="">
+            </div>
+            <div class="bottom-card">
+                <h2>@bebetos</h2>
+            </div>
+        </div>
+
+        <hr class="line2">
+    </section>
+
 </body>
 </html>
