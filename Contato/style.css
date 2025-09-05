@@ -25,7 +25,7 @@ body{
 .s1 h1{
     font-size: 50px;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Merriweather", serif; 
     padding: 5px;
     display: flex;
     justify-items: center;
@@ -44,12 +44,17 @@ body{
     background-color: #FB8500;
     height: 5px;
     border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .s1 h2{
     font-size: 30px;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Merriweather", serif; 
     padding: 5px;
     display: flex;
     justify-items: center;
@@ -69,7 +74,6 @@ body{
 .formulario{
     display: flex;
     justify-items: center;
-    align-items: left;
     flex-direction: column;
     gap: 0px;
 }
@@ -80,9 +84,60 @@ label{
 
 input{
     background-color: #219EBC;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px;
+
+        
 }
 
-button{
-    width: 45px;
+input::placeholder{
+    border: none;
+    color: #ffffff6e;
+    font-family: "Merriweather", serif; 
+    font-size: 15px;
+    gap: 2px;
+} 
+
+
+button {
+    width: 100px;
+    height: 40px; 
+    margin: 20px auto 0 auto; 
     background-color: #219EBC;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Merriweather", serif; 
+}
+
+.line2{
+    margin: 20px auto;
+    width: 405px;  
+    border: none;
+    height: 5px;
+    background-color: #FB8500;
+    border-radius: 30px;
+}
+
+.s2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 80vh;
+    height: auto;
+}
+
+.card{
+    background-color: #FFB703;
+    border-radius: 30px;
+    margin: 20px;
+    height: 60px;
+    
 }
